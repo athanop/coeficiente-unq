@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+}
+
+.banner{
+    background-image: url('https://source.unsplash.com/gneHEtwJl4o/1100x500');
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#Prom{
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#TCC{
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#TCO{
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.fields >  * {
+
+   flex:1 1 33% ;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background: #c94b4b;  
+    background: -webkit-linear-gradient(to left, #4b134f, #c94b4b);  
+    background: linear-gradient(to left, #4b134f, #c94b4b); 
+
+   }
+   button:active {
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
+    background: linear-gradient(to right, #89253e, #3a6186); 
+ 
+   }
+
+#result{
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    border: 2px solid black;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding: 1em;
+    border: 2px solid rgb(151, 5, 5);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+}
+
+button{
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+    color: white;
+    padding: 16px 30px;
+    border-radius: 10px;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    
+}
+
+
+/*ACÁ COMIENZA EL NAV*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 10;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.logo h1 b{
+    color: #cf1d1d;
+}
+
+.menu {
+    height: 80px;
+    margin-right: 60px;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover{
+    color: #ffffff;
+}
+
+.menu .text-menu-selected{
+    color: #ffffff;
+}
+
+.menu nav ul li a i{
+    display: none;
+}
+
+/*Footer - pie de pagina*/
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #ffffff; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+    margin-top: 40px;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    text-decoration-line: none;
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #ffffff;
+    
+}
+
+
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: #41579A;
+    color: #fff;
+    
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+    
+}
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #5d5b5b7a;
+}
+
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+

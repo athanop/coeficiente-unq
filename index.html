@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"> </script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <title>Coeficientes UNQ</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+            <h1>UNQ<b>Coef</b></h1>
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li class="menu-selected"><a href="http://www.unq.edu.ar" class="text-menu-selected"> 
+                            <i class="fas fa-home"></i>PÁGINA UNQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <h2>Calculá tu coeficiente UNQ</h2>
+    </div>
+    <div class="fields">
+        <div class="columna">
+       
+        <p>
+        <label for="Prom"></label>
+        <input type="text" id="Prom" name="Prom" size="20" onkeypress="enterKeyPressed(event)" placeholder="Promedio actual: ">
+        </p>
+        </div>
+
+        <div class="columna">
+        <p>
+        <label for="TCO"></label>
+        <input type="text" id="TCO" name="TCO" size="28" onkeypress="enterKeyPressed(event)" placeholder="Total de créditos obtenidos: (TCO)">
+        </p>
+        </div>
+        
+        <div class="columna">
+        <p>
+        <label for="TCC"></label>
+        <input type="text" id="TCC" name="TCC" size="30" onkeypress="enterKeyPressed(event)" placeholder="Total de créditos de tu carrera: (TCC)">
+        </p>
+        </div>
+    </div>
+    <div>
+            <input type="text" id="result" class="result" readonly placeholder="RESULTADO"> 
+            <br>
+            <button class="calcular" onclick="datos();">Calcular</button>
+        </div>
+    <div class="container-footer">	
+        <footer>
+            <div class="redes-footer">
+                <a href="https://www.facebook.com/nahue.dm"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="https://www.instagram.com/nahu.dm"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+            <hr>
+            <h4>©Copyright 2021 - Creado con lágrimas y sacrificio</h4>
+        </footer>
+    </div>
+</body>
+</html>
