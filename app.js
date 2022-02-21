@@ -12,6 +12,9 @@ var datos = function() {
     if (prom == "" || tco == "" || tcc == ""){
         document.getElementById("result").value = "Datos incorrectos";
     }
+    else if (prom < 0 || tco < 0 || tcc < 0){
+        document.getElementById("result").value = "Ingresá valores positivos";
+    }
     else{
     document.getElementById("result").value = decimal;
     }
@@ -21,7 +24,6 @@ var datos = function() {
 function calcularPromedio(x){
     return parseFloat(x / 2)
 }
-
 //calcula la segunda parte de la fórmula
 function restoFormula(n1, n2){
     return parseFloat(n1) / parseFloat(n2)
@@ -31,7 +33,6 @@ function restoFormula(n1, n2){
 function enterKeyPressed(event) {
     if (event.keyCode == 13) {
        datos()
-       return true;
     } else {
        return false;
     }

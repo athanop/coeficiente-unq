@@ -3,25 +3,31 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background: #c31432; 
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
-    background: linear-gradient(to right, #240b36, #c31432); 
+    background: rgb(61,54,58);
+    background: linear-gradient(80deg, rgba(61,54,58,1) 7%, rgba(60,52,55,1) 12%, rgba(60,52,55,1) 18%, rgba(94,123,182,1) 80%, rgba(39,90,186,1) 100%);
+    
 }
 
-.banner{
-    background-image: url('https://source.unsplash.com/gneHEtwJl4o/1920x1080');
+.banner {
+    background-image: url('https://source.unsplash.com/O_Xy25Dj7Mo/1920x1080'); 
     background-size: cover;
+    max-width: 100%;
+    height: auto;
     padding: 150px 0;
+    
+}
+
+
+
+#intro{
     text-align: center;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    text-shadow: 0.1em 0.1em 0.2em black
+    color: #000000; font-family: 'Lato', sans-serif; font-size: 60px; font-weight: 300; line-height: 58px; margin: 0 0 58px;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 
 h1{
-    color: white;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -33,26 +39,20 @@ h1{
 }
 
 #Prom{
-    background: #ee9ca7; 
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
-    border: 2px solid black;
+    background: white; 
+    border: 2px solid #11517D;
     font-size: 20px;
 }
 
 #TCC{
-    background: #ee9ca7; 
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
-    border: 2px solid black;
+    background: white; 
+    border: 2px solid #11517D;
     font-size: 20px;
 }
 
 #TCO{
-    background: #ee9ca7; 
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
-    border: 2px solid black;
+    background:white; 
+    border: 2px solid #11517D;
     font-size: 20px;
 }
 
@@ -64,27 +64,26 @@ h1{
 
 button:hover {
     cursor: pointer;
-    background: #c94b4b;  
-    background: -webkit-linear-gradient(to left, #4b134f, #c94b4b);  
-    background: linear-gradient(to left, #4b134f, #c94b4b); 
+    background: rgb(218,11,11);
+    background: linear-gradient(80deg, rgba(218,11,11,1) 25%, rgba(218,11,11,0.41780462184873945) 99%);
+    
 
    }
    button:active {
     background: #3a6186;  
     background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
     background: linear-gradient(to right, #89253e, #3a6186); 
+    
  
    }
 
 #result{
-    background: #ee9ca7; 
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    background: white;
     border: 2px solid black;  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     padding: 1em;
-    border: 2px solid rgb(151, 5, 5);
+    border: 2px solid #11517D;
     display: block;
     justify-content: center;
     align-items: center;
@@ -93,9 +92,8 @@ button:hover {
 }
 
 button{
-    background: #c31432; 
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
-    background: linear-gradient(to right, #240b36, #c31432); 
+   background: rgb(218,11,11);
+    background: linear-gradient(80deg, rgba(218,11,11,1) 25%, rgba(218,11,11,0.41780462184873945) 99%);
     color: white;
     padding: 16px 30px;
     border-radius: 10px;
@@ -119,9 +117,8 @@ header{
     left: 0;
     width: 100%;
     height: 80px;
-    background: #c31432; 
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
-    background: linear-gradient(to right, #240b36, #c31432); 
+    background: rgb(61,54,58);
+    background: linear-gradient(80deg, rgba(61,54,58,1) 7%, rgba(60,52,55,1) 12%, rgba(60,52,55,1) 18%, rgba(94,123,182,1) 80%, rgba(39,90,186,1) 100%);
     box-shadow: 0 4px 25px -22px black;
     z-index: 10;
 }
@@ -136,7 +133,7 @@ header{
 
 
 .logo h1 b{
-    color: #cf1d1d;
+    color: white;
 }
 
 .menu {
@@ -195,9 +192,8 @@ header{
 .container-footer{
     width: 100%;
     padding: 40px 0;
-    background: #ffffff; 
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
-    background: linear-gradient(to right, #240b36, #c31432); 
+    background: rgb(61,54,58);
+background: linear-gradient(80deg, rgba(61,54,58,1) 7%, rgba(60,52,55,1) 12%, rgba(60,52,55,1) 18%, rgba(94,123,182,1) 80%, rgba(39,90,186,1) 100%);
     margin-top: 40px;
 }
 
@@ -226,9 +222,7 @@ header{
     font-size: 20px;
     margin: 20px;
     text-decoration-line: none;
-    background: #ee9ca7; 
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    background: #A1B2BF; 
     width: 50px;
     height: 50px;
     display: flex;
