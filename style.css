@@ -9,7 +9,7 @@ body{
 }
 
 .banner {
-    background-image: url('https://source.unsplash.com/O_Xy25Dj7Mo/1920x1080'); 
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://source.unsplash.com/O_Xy25Dj7Mo/1920x1080');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
