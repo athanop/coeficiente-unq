@@ -186,6 +186,8 @@ header{
     height: 100%;
     display: flex;
     list-style: none;
+    width: 20px;
+    float: left;
 }
 
 .menu nav ul li{
